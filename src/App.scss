@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
 
 $light-cyan: hsl(193, 38%, 86%);
 $neon-green: hsl(150, 100%, 66%);
@@ -9,8 +9,34 @@ $dark-blue: hsl(218, 23%, 16%);
 .App {
   text-align: center;
   font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: $dark-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   p {
     font-size: 28px;
+  }
+
+  small {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $neon-green;
+    letter-spacing: 0.25rem;
+  }
+
+  .quote-container {
+    height: 40%;
+    width: 40%;
+    background-color: $dark-grayish-blue;
+    color: $light-cyan;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
   }
 }
