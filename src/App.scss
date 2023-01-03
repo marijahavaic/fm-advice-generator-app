@@ -17,6 +17,7 @@ $breakpoint-desktop: 1440px;
   align-items: flex-start;
   justify-content: center;
   padding-top: 30%;
+  
 
   p {
     font-size: 28px;
@@ -40,10 +41,31 @@ $breakpoint-desktop: 1440px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    position: relative;
   }
 
- 
+  .dice {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: $neon-green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -30px;
+  }
+
+  button {
+    border: 1px solid $neon-green;
+  }
+  
+  .divider {
+    width: 90%;
+  }
 }
+
+// Desktop
  @media (min-width: $breakpoint-desktop) {
     .App {
       align-items: center;
