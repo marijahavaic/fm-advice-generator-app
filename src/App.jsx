@@ -25,7 +25,7 @@ function App() {
         <p>{isLoading ? "" : `“${data.slip.advice}”`}</p>
         <img src={isMobile ? mobile_divider : desktop_divider} alt="Pattern divider" className="divider" />
         <button className="dice" onClick={refetch}>
-          <img src={icon_dice} alt="Icon dice" />
+          <img src={icon_dice} alt="Icon dice" className="cube" />
         </button>
     </div>
   </div>)
