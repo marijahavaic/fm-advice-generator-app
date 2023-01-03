@@ -20,7 +20,7 @@ function App() {
   // console.log(isMobile)
   return(
   <div className="App">
-      <div className="quote-container">
+      <main className="quote-container">
         <small>Advice #{isLoading ? "" : data.slip.id}</small>
         {isError && `An error occured: ${error}`}
         <p>{isLoading ? "" : `“${data.slip.advice}”`}</p>
@@ -28,7 +28,7 @@ function App() {
         <button className="dice" onClick={refetch}>
           <img src={icon_dice} alt="Icon dice" className="cube" />
         </button>
-    </div>
+    </main>
   </div>)
 }
 
