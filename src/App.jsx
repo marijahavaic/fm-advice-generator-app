@@ -23,7 +23,7 @@ function App() {
       <main className="quote-container">
         <small>Advice #{isLoading ? "" : data.slip.id}</small>
         {isError && `An error occured: ${error}`}
-        <p>{isLoading ? "" : `“${data.slip.advice}”`}</p>
+        <p>{isLoading ? "Loading..." : `“${data.slip.advice}”`}</p>
         <img src={isMobile ? mobile_divider : desktop_divider} alt="Pattern divider" className="divider" />
         <button className="dice" onClick={refetch}>
           <img src={icon_dice} alt="Icon dice" className="cube" />
