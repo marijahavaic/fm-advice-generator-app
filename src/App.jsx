@@ -14,7 +14,7 @@ function App() {
     return data
   }
 
-  const { data, error, isError, isLoading } = useQuery("getQuote",() => getAdvice());
+  const { data, error, isError, isLoading, refetch } = useQuery("getQuote",() => getAdvice());
   console.log(data)
   // console.log(isMobile)
   return(
@@ -24,7 +24,7 @@ function App() {
         {isError && `An error occured: ${error}`}
         <p>{isLoading ? "" : `“${data.slip.advice}”`}</p>
         <img src={isMobile ? mobile_divider : desktop_divider} alt="Pattern divider" className="divider" />
-        <button className="dice">
+        <button className="dice" onClick={refetch}>
           <img src={icon_dice} alt="Icon dice" />
         </button>
     </div>
