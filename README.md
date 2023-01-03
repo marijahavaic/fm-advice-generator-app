@@ -75,6 +75,7 @@ I would like to use React Query more as I can see a lot of benefits of this libr
 - [React Query Tutorial](https://www.youtube.com/watch?v=VtWkSCZX0Ec&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2&index=2) - This tutorial helped me understand React Query
 - [React Query useQuery](https://tanstack.com/query/v4/docs/react/reference/useQuery?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Freference%2FuseQuery) - This helped me understand how can I use useQuery hook.
 - [Shake Animation](https://www.w3schools.com/howto/howto_css_shake_image.asp) 
+- [Deploying React apps to GitHub Pages](https://blog.logrocket.com/deploying-react-apps-github-pages/)
 
 ## Author
 
