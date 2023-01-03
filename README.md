@@ -34,8 +34,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/marijahavaic/fm-advice-generator-app)
+- Solution URL: [Solutio on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-Cd4YFPyyak)
 - Live Site URL: [Github Pages](https://marijahavaic.github.io/fm-advice-generator-app/)
+- Source Code URL: [Github](https://github.com/marijahavaic/fm-advice-generator-app)
 
 ## My process
 
