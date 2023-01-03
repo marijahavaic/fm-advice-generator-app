@@ -46,7 +46,8 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [React Query](https://react-query-v3.tanstack.com/) - React framework for fetching API
+- [React Query](https://react-query-v3.tanstack.com/) - React library for fetching API
+- [React Device Detection](https://www.npmjs.com/package/react-device-detect) - React library for device detection
 - [SASS](https://sass-lang.com/) - For styles
 
 ### What I learned
