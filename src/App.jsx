@@ -9,13 +9,14 @@ import mobile_divider from './images/pattern-divider-mobile.svg'
 import icon_dice from './images/icon-dice.svg'
 
 function App() {
+  // Function for fetching the quote
   async function getAdvice() {
     const { data } = await axios.get("https://api.adviceslip.com/advice");
     return data
   }
-
+  // react-query hook for fetching the data
   const { data, error, isError, isLoading, refetch } = useQuery("getQuote",() => getAdvice());
-  console.log(data)
+  // console.log(data)
   // console.log(isMobile)
   return(
   <div className="App">

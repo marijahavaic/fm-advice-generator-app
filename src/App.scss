@@ -32,8 +32,8 @@ $breakpoint-desktop: 1440px;
   }
 
   .quote-container {
-    height: 40%;
-    width: 90%;
+    min-height: 40%;
+    width: 75%;
     background-color: $dark-grayish-blue;
     color: $light-cyan;
     font-weight: 800;
@@ -41,7 +41,7 @@ $breakpoint-desktop: 1440px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 1rem;
     position: relative;
     padding: 30px;
   }
@@ -56,7 +56,7 @@ $breakpoint-desktop: 1440px;
     align-items: center;
     justify-content: center;
     bottom: -30px;
-    
+    margin-top: 20px;
   }
 
   .cube {
